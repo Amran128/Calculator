@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+.cal-wrap {
+    max-width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0;
+}
+
+.cal-head #result {
+    font-size: 18px;
+    color: black;
+    width: 332px;
+    height: 70px;
+    font-weight: bold;
+    text-align: right;
+    padding: 0 7px;
+    letter-spacing: 2px;
+}
+
+.btn {
+    width: 87px;
+    height: 70px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #222;
+    color: aliceblue;
+    transition: .03s all ease;
+}
+
+.btn:hover {
+    background-color: rgb(191, 82, 212);
+}
+
+.btn-purple {
+    background-color: blueviolet;
+}
+
+.btn-yellow {
+    background-color: rgba(226, 226, 36, 0.87);
+}
+
